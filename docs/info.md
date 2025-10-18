@@ -15,8 +15,15 @@ AND, OR, XOR, and inverter logic gates connected to inputs a,b,c,d,e,f,g
 
 See the inputs and check the outputs match with the expected results
 
-input a and b
+input a and b | output AND | output OR | output XOR |
+0 0 | 0 | 0 | 0
+0 1 | 0 | 1 | 1 
+1 0 | 0 | 1 | 1
+1 1 | 1 | 1 | 0
 
+input g | output inverter
+1 | 0
+0 | 1
 ## External hardware
 
 List external hardware used in your project (e.g. PMOD, LED display, etc), if any
